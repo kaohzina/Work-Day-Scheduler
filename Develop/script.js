@@ -1,3 +1,5 @@
+const moment = require("moment");
+
 //display current date on the page
 const currentDate = moment().format("dddd, MMM Do, YY");
 const currentDateEl = document.querySelector("#currentDay");
@@ -16,15 +18,24 @@ console.log(text);
 
 //track the times that have passed
 const past = function(){
+if(hour < currentTime) {
 
+  }
 }
 
 //track the time currently
 const present = function(){
+if(hour === currentTime){
 
+}
 }
 
 //track the time in the future
 const future = function(){
-  
+  if(hour > currentTime) {
+    
+  }
 }
+
+
+console.log(); //> 6 minutes ago
